@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Calculator App</string>
+    <string name="add">ADD</string>
+    <string name="basic_calculator">BASIC CALCULATOR</string>
+    <string name="clear">CLEAR</string>
+    <string name="find_average">FIND AVERAGE</string>
+    <string name="find_min_max">FIND MIN MAX</string>
+    <string name="number">Number</string>
+    <string name="statistics_functions">STATISTICS FUNCTIONS</string>
+    <string name="enter_number">Enter Number</string>
+    <string name="textview">TextView</string>
+    <string name="answer">ANSWER</string>
+</resources>

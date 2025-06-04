@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">My GenerationApp</string>
+    <string name="check_generation">Check Generation</string>
+    <string name="which_year_were_you_born_in">Which year were you born in?</string>
+</resources>

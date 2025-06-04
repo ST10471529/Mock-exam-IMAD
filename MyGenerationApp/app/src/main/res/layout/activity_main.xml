@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:paddingTop="16dp"
+            android:text="@string/which_year_were_you_born_in"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:translationY="-150dp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="262dp"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:text="@string/check_generation"
+            android:textSize="20dp"
+            android:translationY="-1dp" />
+
+        <TextView
+            android:id="@+id/yearinput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:text="You Belong In The Following Generation:"
+            android:textAlignment="center"
+            android:textSize="21sp"
+            android:textStyle="bold"
+            android:translationY="40dp" />
+
+        <EditText
+            android:id="@+id/year"
+            android:layout_width="284dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Enter Year"
+            android:inputType="number"
+            android:minHeight="50dp"
+            android:paddingTop="16dp"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textStyle="italic"
+            android:translationY="-220dp" />
+
+        <TextView
+            android:id="@+id/genTxt"
+            android:layout_width="320dp"
+            android:layout_height="100dp"
+            android:paddingTop="16dp"
+            android:text=""
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:translationY="30dp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="262dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Clear" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="262dp"
+            android:layout_height="wrap_content"
+            android:text="Exit"
+
+            android:textSize="20dp"
+            tools:ignore="TextSizeCheck" />
+
+
+    </LinearLayout>

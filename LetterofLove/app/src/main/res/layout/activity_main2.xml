@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background=""
+    android:padding="16dp"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/messageTextView1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="For the BEST TEACHER in the world!!"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/messageTextView2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="HAPPY BIRTHDAY MRS ROBERTSON.
+Words can not express how much I appreciate you.
+From the first day you taught me, I knew it would be an experience of a lifetime.
+You have touched my heart and inspired me to strive for excellence.
+Everyday I woke up, I wanted to go to school because I knew I would be able to see you on my timetable.
+You made an experience I dreaded and turned it into a journey of excitement.
+Throughtout all the up's and down's, you were always there to support me.
+You always gave the best advice to me and everyone you knew and always listened to anything and everything we had brought up to you.
+Looking back at the years i've known you ma'am, it has been the best years if my life especally towards the end of my last year of school and I would never want to trade anything else for that.
+If there's one thing I could buy you, it would be the universe because that's what you mean to me. Of course the flowers are a must with red-bull and a lovely note too.
+Have a great day today Ma'am "
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/messageTextView1" />
+
+    <TextView
+        android:id="@+id/loveTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Love you loads mam"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/messageTextView2" />
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Back"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/loveTextView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
